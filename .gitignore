@@ -1,0 +1,9 @@
+/pack
+/node_modules/
+/view/
+/index.html
+/dist
+/*.zip
+/.idea/
+npm-debug.log
+.DS_Store

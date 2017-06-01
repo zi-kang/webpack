@@ -1,0 +1,25 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "学习webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack  ./mywebpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zi-kang/webpack.git"
+  },
+  "author": "huzikang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zi-kang/webpack/issues"
+  },
+  "homepage": "https://github.com/zi-kang/webpack#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.28.0",
+    "path": "^0.12.7",
+    "webpack": "^2.6.1"
+  }
+}

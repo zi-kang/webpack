@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/zi-kang/webpack#readme",
   "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "css-loader": "^0.28.4",
     "html-webpack-plugin": "^2.28.0",
+    "loader": "^2.1.1",
     "path": "^0.12.7",
     "webpack": "^2.6.1"
   }

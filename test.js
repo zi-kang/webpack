@@ -2,7 +2,7 @@
  * Created by huzikang on 17/6/12.
  */
 const webpack = require('webpack');
-const configuration = require('./webpack.config.js');
+const configuration = require('./webpack.config0.js');
 
 let compiler = webpack( configuration );
 

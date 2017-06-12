@@ -38,20 +38,40 @@
 const path = require('path'),
     webpack = require('webpack'),
     HtmlWebpackPlugin = require('html-webpack-plugin');
+/*const config = {
+ entry: './test/3.js',
+ output: {
+ path: path.resolve(__dirname, 'dist2'),
+ filename: 'my-first-webpack.bundle.js'
+ },
+ module: {
+ rules: [
+ {test: /\.(js|jsx)$/, use: 'babel-loader'}
+ ]
+ },
+ plugins: [
+ new webpack.optimize.UglifyJsPlugin(),
+ new HtmlWebpackPlugin({template: './index.html'})
+ ]
+ };*/
+
 const config = {
-    entry: './test/3.js',
+    entry: './test/6-12.js',
     output: {
-        path: path.resolve(__dirname, 'dist2'),
-        filename: 'my-first-webpack.bundle.js'
+        filename: 'my-6-12-1-webpack.bundle.js',
+        path: path.resolve(__dirname, 'dist612')
     },
     module: {
-        rules: [
-            {test: /\.(js|jsx)$/, use: 'babel-loader'}
+        loaders: [
+            {
+                test: /\.(js|jsx)$/,
+                loader: 'babel-loader'
+            }
         ]
     },
     plugins: [
         new webpack.optimize.UglifyJsPlugin(),
-        new HtmlWebpackPlugin({template: './index.html'})
+        new HtmlWebpackPlugin({template:'./index.html'})
     ]
 };
 
